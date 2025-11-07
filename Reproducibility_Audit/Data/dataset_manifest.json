@@ -1,0 +1,46 @@
+{
+    "manifest_generated_on": "2025-10-14T07:37:17.228306",
+    "dataset": {
+        "file_name": "corpus_sentences_clean_filtered.csv",
+        "path": "/content/corpus_sentences_clean_filtered.csv",
+        "sha256": "6172ab4115d27fde9c8b988f60bdb1aab0aa1b570e2af7e7ec828fcadf6dc684",
+        "total_sentences": 17493,
+        "unique_articles": 17493,
+        "unique_outlets": 7,
+        "outlet_counts": {
+            "economictimes.indiatimes.com": 1732,
+            "hindustantimes.com": 3184,
+            "indianexpress.com": 2682,
+            "indiatodayne.in": 1898,
+            "livemint.com": 3787,
+            "moneycontrol.com": 2599,
+            "ndtv.com": 1611
+        },
+        "min_word_filter": ">5"
+    },
+    "balanced_sample": {
+        "file_name": "corpus_60_sample.csv",
+        "path": "/content/corpus_60_sample.csv",
+        "sha256": "40d42bdf77bc6a6dfd48a7688c0abb8a6362843811d07f2417ce525f755bc063",
+        "total_sentences": 56,
+        "unique_articles": 56,
+        "unique_outlets": 7,
+        "outlet_counts": {
+            "economictimes.indiatimes.com": 8,
+            "hindustantimes.com": 8,
+            "indianexpress.com": 8,
+            "indiatodayne.in": 8,
+            "livemint.com": 8,
+            "moneycontrol.com": 8,
+            "ndtv.com": 8
+        },
+        "sentences_per_article": 3
+    },
+    "environment": {
+        "python_version": "3.12.12",
+        "pandas_version": "2.2.2",
+        "os_info": "Linux-6.6.105+-x86_64-with-glibc2.35",
+        "hostname": "e7f45d9129b3",
+        "colab_notebook": true
+    }
+}

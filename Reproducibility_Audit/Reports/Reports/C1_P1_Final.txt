@@ -1,0 +1,8 @@
+
+=== Per-model stability metrics (P1, 5 runs each) ===
+     model_name  articles  mean_ERR  median_std  flip_rate
+  llama2:latest        56  0.953571    0.273861   0.160714
+ mistral:latest        56  0.846429    1.140175   0.392857
+devstral:latest        56  0.839286    0.894427   0.589286
+
+✅ prompt_hash is consistent across runs for each (model, article).
